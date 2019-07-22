@@ -1,6 +1,7 @@
 - name:  Windows Update
   #hosts: ansibletestwin1
-  hosts: '{{ target }}'
+  hosts: all
+  #hosts: '{{ target }}'
   vars: 
     ansible_host: '{{ private_ip }}'
     ansible_winrm_server_cert_validation: ignore
