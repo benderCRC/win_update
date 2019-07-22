@@ -3,7 +3,7 @@
    - name: ansibletestwin1
      host_name: ansibletestwin1
      ip_address: 10.25.0.5
-      gather_facts: true
+   gather_facts: true
   tasks:
     - name: Running Windows Update
       win_updates:
