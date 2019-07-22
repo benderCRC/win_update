@@ -1,5 +1,6 @@
 - name:  Windows Update
-  hosts: ansibletestwin1
+  #hosts: ansibletestwin1
+  hosts: "{{ 10.25.0.5 }}"
   gather_facts: false
   tasks:
     - name: Running Windows Update
