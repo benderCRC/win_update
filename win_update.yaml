@@ -3,6 +3,7 @@
   hosts: '{{ target }}'
   vars: 
     ansible_host: 10.25.0.5
+    ansible_winrm_server_cert_validation: ignore
   gather_facts: false
   tasks:
     - name: Running Windows Update
