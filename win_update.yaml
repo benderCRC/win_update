@@ -1,6 +1,6 @@
 - name:  Windows Update
   hosts:
-  - {ip_address: "10.25.0.5", host_color: "yellow"}
+  - {host_name: "ansibletestwin1", ip_address: "10.25.0.5", host_color: "yellow"}
   gather_facts: true
   tasks:
     - name: Running Windows Update
