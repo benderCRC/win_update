@@ -1,6 +1,5 @@
 - name:  Windows Update
-  hosts:
-     ip_address: 10.25.0.5
+  hosts: 10.25.0.5
   gather_facts: true
   tasks:
     - name: Running Windows Update
