@@ -1,7 +1,7 @@
 - name:  Windows Update
   hosts:
    - name: ansibletestwin1
-     host_name: ansibletestwin1
+     #host_name: ansibletestwin1
      ip_address: 10.25.0.5
   gather_facts: true
   tasks:
