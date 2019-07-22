@@ -1,7 +1,5 @@
 - name:  Windows Update
-#  hosts: all
-- hosts: local
-  connection: local
+  hosts: all
   gather_facts: true
   tasks:
     - name: Running Windows Update
